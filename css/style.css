@@ -104,3 +104,8 @@ main{
     padding: 10px;
     color: red;
 }
+
+.footer_bar span{
+    font-size: 12px;
+    text-align: left;
+}
