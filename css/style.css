@@ -43,6 +43,7 @@ main{
     height: calc(100vh - 50px - 100px);
     background-color: black;
     padding: 20px;
+    overflow-y: auto;
 
 }
 
@@ -88,27 +89,25 @@ main{
     align-items: center;
 }
 
-.audio_video i{
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
+.audio_video i,
 .comand i{
     margin-right: 30px;
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 20px;
     padding-left: 13px;
-    
 }
+
 
 .fa-share-from-square{
     color: green;
 }
 .termina{
-    font-size: 18px;
-    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    background-color: red;
+    margin-right: 5px;
+    border-radius: 10px;
     padding: 10px;
-    color: red;
+    color: white;
 }
 
 .footer_bar span{
@@ -116,5 +115,15 @@ main{
     font-size: 12px;
     text-align: center;
     margin-top: 5px;
+}
+
+.comand div:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    
+}
+
+.audio_video div:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    
 }
 
